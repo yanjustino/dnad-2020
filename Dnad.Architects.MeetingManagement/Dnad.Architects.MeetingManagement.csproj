@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application" />
+    <Folder Include="Domain" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dnad.Architects.Adapters.SqlServer\Dnad.Architects.Adapters.SqlServer.csproj" />
+    <ProjectReference Include="..\Dnad.Architects.Application.Ports\Dnad.Architects.Application.Ports.csproj" />
+    <ProjectReference Include="..\Dnad.Architects.CertificateManagement\Dnad.Architects.CertificateManagement.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Dnad.Architects.CertificateManagement\Dnad.Architects.CertificateManagement.csproj" />
+      <ProjectReference Include="..\Dnad.Architects.MeetingManagement\Dnad.Architects.MeetingManagement.csproj" />
+    </ItemGroup>
+
+</Project>
