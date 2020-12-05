@@ -2,7 +2,7 @@
 using Xunit;
 using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
-namespace Dnad.Architects.Tests.Application.Services
+namespace Dnad.Architects.Tests.Application.Dependecies
 {
     public partial class ServiceDependeciesTests
     {

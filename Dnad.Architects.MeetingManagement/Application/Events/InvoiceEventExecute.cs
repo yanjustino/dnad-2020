@@ -1,8 +1,8 @@
 ﻿using Dnad.Architects.MeetingManagement.Application.Events.Interfaces;
 
-namespace Dnad.Architects.MeetingManagement.Application.Events
+namespace Dnad.Architects.MeetingManagement.Application.Eventos
 {
-    public class InvoiceEventHandler: IInvoiceEventHandler
+    public class InvoiceEventExecute: IInvoiceEventHandler
     {
     }
 }
