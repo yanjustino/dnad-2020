@@ -1,0 +1,6 @@
+# Evitando o declínio arquitetural de suas aplicações na velocidade de desenvolvimento
+
+Era uma vez... Alguém experiente que olhou para o código e desenhou alguns diagramas para a arquitetura do sistema, evidenciando seus componentes e como eles deveriam interagir. Depois de um tempo, o projeto ficou maior, os casos de uso mais complexos; novos desenvolvedores entraram e os antigos desistiram; novos recursos eram simplesmente adicionados de qualquer maneira que se encaixasse. De repente tudo dependia de tudo e cada mudança causava um efeito imprevisível sobre outros componentes… Isso lhe soa familiar? Não se preocupe, ela é mais comum do que você imagina. Venha comigo nesta palestra para juntos encontramos um final alternativo para essa estória.
+
+### Yan Justino , XP Inc.
+Profissional focado na adoção de boas práticas de engenharia de software; 20 anos de experiência dedicados à construção de soluções corporativas. Atualmente, estou engenheiro de software sênior na XP Inc., desenvolvendo soluções orientadas a serviços para área de seguros. Além disso, possuo mestrado em Engenharia de Software pelo programa de pós-graduação em Engenharia de Software (PPgSW), vinculado ao Instituto Metrópole Digital (IMD/UFRN).
