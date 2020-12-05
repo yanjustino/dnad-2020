@@ -3,7 +3,7 @@ using ArchUnitNET.Fluent;
 using ArchUnitNET.Loader;
 using Dnad.Architects.Adapters.SqlServer;
 using Dnad.Architects.Application.Ports.Database;
-using Dnad.Architects.MeetingManagement.Application.Eventos;
+using Dnad.Architects.MeetingManagement.Application.Events;
 using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
 namespace Dnad.Architects.Tests.Application.Conventions
@@ -12,7 +12,7 @@ namespace Dnad.Architects.Tests.Application.Conventions
     {
         private static System.Reflection.Assembly[] Assemblies => new[]
         {
-            typeof(InvoiceEventExecute).Assembly,
+            typeof(InvoiceEventEventHandler).Assembly,
             typeof(SqlServerHolder).Assembly,
             typeof(IDatabaseHolder).Assembly
         };
